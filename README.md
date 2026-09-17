@@ -1,6 +1,6 @@
 # Snapcast Rooms
 
-A Windows desktop app for running and managing [Snapcast](https://github.com/badaix/snapcast)
+A Windows desktop app for running and managing [Snapcast](https://github.com/snapcast/snapcast)
 clients on your PC. Start and stop players, choose which audio device each one
 uses, set volume, and see what is playing.
 
@@ -58,7 +58,7 @@ AI was used to some degree in building it.
 
 ## Requirements
 
-Windows 10 or 11, and a reachable [Snapserver](https://github.com/badaix/snapcast).
+Windows 10 or 11, and a reachable [Snapserver](https://github.com/snapcast/snapcast).
 Version 0.27 or newer if you want the track metadata.
 
 Nothing else to install. `snapclient.exe` is downloaded by the app on first use.
@@ -132,6 +132,13 @@ The Diagnostics page is empty. It reads buffer and sync figures from snapclient
 statistics lines that are not emitted at the log level the app runs it at.
 
 Windows only. It uses WMI and WASAPI endpoint ids throughout.
+
+## Credits
+
+[Snapcast](https://github.com/snapcast/snapcast) is the project that does the
+actual work: the server, the client, and the synchronisation that keeps rooms in
+step. This app only starts `snapclient` with the right arguments and shows what
+it is doing.
 
 ## Licence
 
