@@ -1,0 +1,36 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5B5BD6"/>
+      <stop offset="0.55" stop-color="#4747C4"/>
+      <stop offset="1" stop-color="#1E1E3A"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="80" y1="180" x2="176" y2="76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3ECFB2"/>
+      <stop offset="1" stop-color="#8B8BF0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="58" fill="url(#bg)"/>
+
+  <!-- broadcast arcs: one source reaching outward -->
+  <g stroke="#3ECFB2" stroke-linecap="round" fill="none" opacity="0.55">
+    <path d="M56 128a72 72 0 0 1 24-53.7" stroke-width="7"/>
+    <path d="M200 128a72 72 0 0 0-24-53.7" stroke-width="7"/>
+  </g>
+  <g stroke="#8B8BF0" stroke-linecap="round" fill="none" opacity="0.35">
+    <path d="M34 128a94 94 0 0 1 20-58.6" stroke-width="6"/>
+    <path d="M222 128a94 94 0 0 0-20-58.6" stroke-width="6"/>
+  </g>
+
+  <!-- equaliser: synchronized rooms -->
+  <g fill="url(#bars)">
+    <rect x="80"  y="132" width="16" height="44" rx="8"/>
+    <rect x="108" y="108" width="16" height="68" rx="8"/>
+    <rect x="136" y="88"  width="16" height="88" rx="8"/>
+    <rect x="164" y="120" width="16" height="56" rx="8"/>
+  </g>
+
+  <!-- baseline -->
+  <rect x="76" y="188" width="108" height="8" rx="4" fill="#3ECFB2" opacity="0.9"/>
+</svg>

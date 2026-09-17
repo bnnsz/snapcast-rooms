@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+local.properties
+
+# Kotlin
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Snapcast binaries are GPL-3.0 and are never redistributed from this repository
+snapclient.exe
+*.dll
+snapclient-download.zip
+
+# Local output
+*.log
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+
+# Agent config
+/.claude/
