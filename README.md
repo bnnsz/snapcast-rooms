@@ -9,6 +9,16 @@ project.
 
 ![Players](docs/players.png)
 
+Groups, and settings:
+
+![Groups](docs/groups.png)
+
+![Settings](docs/settings.png)
+
+It follows the system theme:
+
+![Players in dark mode](docs/players-dark.png)
+
 ## Why this exists
 
 I set up multi-room audio at home with Snapcast and Music Assistant. The server
