@@ -1,8 +1,8 @@
 # Snapcast Rooms
 
-A Windows desktop app for running and managing [Snapcast](https://github.com/snapcast/snapcast)
-clients on your PC. Start and stop players, choose which audio device each one
-uses, set volume, and see what is playing.
+A Windows front end for [Snapcast](https://github.com/snapcast/snapcast). Start
+and stop players on your PC, choose which audio device each one uses, set
+volume, and see what is playing.
 
 This is an unofficial third-party client. It is not affiliated with the Snapcast
 project.
